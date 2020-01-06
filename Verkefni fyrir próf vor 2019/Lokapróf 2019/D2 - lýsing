@@ -1,0 +1,50 @@
+English version below
+ 
+ 
+Kvikmyndaleikurinn er leikur sem leikinn er af tveimur aðilum. Reglurnar eru eftirfarandi, þáttakandi 1 nefnir nafn á kvikmynd, næst á þáttakandi 2 að nefna nafn á kvikmynd sem byrjar á síðasta stafnum í nafni kvikmyndarinnar sem þáttakandi 1 nefndi.
+Svona gengur leikurinn koll að kolli þangað til annar leikmaður getur ekki nefn kvikmynd og velur að gefast upp og þar með leyfa hinum þáttakanum að vinna leikinn. 
+ 
+ATHUGIÐ:
+Í þessari útgáfu af leiknum þarf ekki að taka mark á greininum "the" þannig að ef að þáttakandi 1 slær inn "Her Alibi" þá er löglegt fyrir þáttakanda 2 að slá inn "The incredibles" þar sem að ekki er tekið mark á greininum "the".
+Einnig skal hafa í huga að í þessum leik ætti ekki að vera gerður greinarmunur á stórum og litlum stöfum.
+ 
+Skrifið forrit sem gerir tveimur aðilum kleyft að spila eftirfarandi leik þangað til annar aðilinn kýs að gefast upp.
+Dæmi um inntak / úttak er hér fyrir neðan.
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+The Movie Game is a game played by two people, and goes as follows. The first player names a movie. The second player then names a new movie whose title starts with the last letter of the movie the first player named. The first player must then do the same, name a movie whose title starts with the last letter of the movie the second player named. The turn goes back and forth until a player cannot name a new movie that fits the criteria and chooses the give up options and therefore hands victory over to the other player.
+ 
+NOTE:
+In this version of the game we will ignore the definite article "the" So if a player names the movie "Her Alibi" the next player can name the movie "The Incredibles," since the article "the" is ignored.
+Also, this game should not be case sensitve.
+ 
+Write a program that lets two players play this game until one of the players chooses to give up.
+
+
+Input/output example:
+
+Player 1, it is your turn!
+1. Input a movie title
+2. Give up
+Pick an action: 1
+Enter a movie title: The Mask
+
+Player 2, it is your turn!
+1. Input a movie title
+2. Give up
+Pick an action: 1
+Enter a movie title: batman
+
+Invalid input, what would you like to do?
+1. Input a movie title
+2. Give up
+Pick an action: 1
+Enter a movie title: Kill Bill
+
+Player 1, it is your turn!
+1. Input a movie title
+2. Give up
+Pick an action: 2
+
+Player 2 wins!
