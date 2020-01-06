@@ -1,0 +1,63 @@
+English version below
+ 
+Búðu til forrit sem les gögn úr skrá. Gögnin eru á eftirfarandi formi: 
+ 
+228136 - My Documents
+202099 - Library
+561775 - Submissions
+100294 - Misc
+799927 - Music
+826594 - Downloads
+569863 - Images
+2737508 - Exams
+ 
+Hver lína í skránni geymir stærð möppu í bætum(bytes) ásamt nafni möppunnar.
+Þess má geta að engar möppur heita það sama og engar möppur er jafn stórar.
+Notandi ætti að geta stimplað inn nafn skráarinnar sem á að lesa úr.
+Næst á forritið að prenta út nafn hverrar möppu í stafrófsröð ásamt stærð möppunnar í bætum(bytes).
+Því næst skal prent út nafn möppunar sem er stærst í bætum og meðalstærð mappa(með tveimur aukastöfum).
+ 
+ATH. Ef að skrá finnst ekki á forritið að skrifa út 'File not found!' og hætta keyrslu.
+ 
+Dæmi um inntak / úttak er hér fyrir neðan.
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Create a program that reads data from a file. The format of the file is as follows:
+ 
+228136 - My Documents
+202099 - Library
+561775 - Submissions
+100294 - Misc
+799927 - Music
+826594 - Downloads
+569863 - Images
+2737508 - Exams
+ 
+Each line contains the amount of bytes a specific directory occupies, and the name of the directory.
+No directory has the same name and no directory is the same size.
+ 
+The user should be able to enter the name of a file that holds the directory data.
+Next you should print the names of each directory in alphabetical order along with the directories size in bytes.
+Next you should output the name of the biggest directory(in bytes) and the average byte size of the directories(with two digits after the decimal point).
+ 
+NOTE: If the file cannot be found the program should print the text 'File not found!' should be printed and then the program should end.
+ 
+
+ 
+
+Input/output example:
+
+Enter name of file: data.txt
+Printing all directories
+Downloads is 826594 bytes
+Exams is 2737508 bytes
+Images is 569863 bytes
+Library is 202099 bytes
+Misc is 100294 bytes
+Music is 799927 bytes
+My Documents is 228136 bytes
+Submissions is 561775 bytes
+
+The biggest directory is: Exams
+The average directory size is: 753274.5 bytes.
