@@ -1,0 +1,165 @@
+English version below
+
+ 
+
+Það má hvorki breyta main() eða create_order()
+
+ 
+
+Í þessum hluta er gefið main() fall. Þú þarft að búa til klasann Order svo að gefna main fallið virki sem skyldi. Order á 3 private meðlimabreytur(private attributes): nafn vöru, magn og einingaverð.
+
+Order tilvik gæti t.d verið svona:
+
+ 
+
+Product name:T-shirt
+
+Quantity: 3
+
+Unit price: 12.99
+
+ 
+
+Þetta þýðir að tiltekið Order tilvik á 3 T-shirt þar sem hver T-shirt kostar 12.99.
+
+ 
+
+Þú þarft að lesa main fallið gaumgæfilega til þess að átta þig á hvað þarf að útfæra.
+
+Meðlimafallið increase_unit_price() tekur inn eina breytu sem táknar prósentu. Fallið á að hækka einingaverð vöru um tilteka prósentu.
+
+Meðlimafallið add_quantity() tekur inn eina heiltölu sem tákar hversu mörgum vörum á að bæta við tiltekna pöntun.
+
+ 
+
+Það þarf að yfirskrifa einhverja virkja í þessu verkefni.
+
+Tvö Order tilvik eru eins ef að þau hafa sama nafn, sama magn og sama einingaverð.
+
+Order tilvik er stærra en annað Order tilvik ef að heildarupphæð pöntuninnar er stærri en heildarupphæð hinnar pöntuninnar.
+
+ 
+
+Fallið create_order() er einnig gefið.
+
+ 
+
+Öll verð ættu að vera sýnd með nákvæmlega tveimur aukastöfum.
+
+ 
+
+Dæmi um inntak/úttak er hér fyrir neðan.
+
+ 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+You may not change main() or create_order()
+
+ 
+
+A main function is given. You need to create the class Order so the given main function will work. An Order has 3 private attributes, a product name, a quantity and a unit_price.
+
+So one Order could be:
+
+ 
+
+Product name:T-shirt
+
+Quantity: 3
+
+Unit price: 12.99
+
+ 
+
+This means that this particular order has 3 T-shirts where each t-shirt costs 12.99
+
+ 
+
+You need to read the main function thoroughly and figure out what methods the Order class should have.
+
+The method increase_unit_price() takes a percentage as a parameter and increases the unit_price of a order by that percentage.
+
+The method add_quantity() takes in an integer that states how many additional products you wish to add to a given order.
+
+ 
+
+You will need to override some operators.
+
+Two Orders are equal if the have the same name, same quantity and same unit price.
+
+ 
+
+An order is greater than another order if its total price is higher than the total price of the other order.
+
+ 
+
+The function create_order is also given.
+
+ 
+
+All prices should be shown with 2 digits after the decimal point.
+
+ 
+
+Input/ output example:
+
+
+How many orders? 2
+Product name: Jacket
+How many units: 1
+Unit price: 39.99
+
+Product name: Jeans
+How many units: 2
+Unit price: 19.99
+
+Printing all orders:
+Product: Jacket
+Quantity: 1
+Unit price: 39.99
+Total: 39.99
+
+Product: Jeans
+Quantity: 2
+Unit price: 19.99
+Total: 39.98
+
+
+First order before adding to the quantity
+Product: Jacket
+Quantity: 1
+Unit price: 39.99
+Total: 39.99
+
+First order after adding to the quantity
+Product: Jacket
+Quantity: 4
+Unit price: 39.99
+Total: 159.96
+
+Product: Jacket
+Quantity: 4
+Unit price: 49.99
+Total: 199.95
+
+Product: Jeans
+Quantity: 2
+Unit price: 24.99
+Total: 49.97
+
+
+Enter a order
+Product name: T-shirt
+How many units: 3
+Unit price: 7.99
+
+Enter a order
+Product name: Hat
+How many units: 1
+Unit price: 47.99
+
+The orders are not identical
+Order1 is NOT greater than order2
